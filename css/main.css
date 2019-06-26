@@ -1,0 +1,584 @@
+/*
+-- Estilos CSS - Site Krochetando com a Ka - 
+*/
+
+html, body {
+  height: 100%;
+  background-color: gray;
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+
+#cabecalho {
+  background-color: #ede86a;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+
+#logo {
+  display: inline-block;
+  height: 5.000em;
+  margin-left: 10%;
+}
+
+#logo img{
+  height: 100%;
+}
+
+nav {
+  overflow: hidden;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+/* Estilizando os links dentro do menu-principal */
+
+nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0.875em 1em;
+  text-decoration: none;
+  font-size: 1.063em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mudar as cores dos links no hover */
+
+nav a:hover {
+  border-bottom: 0.125em solid #112544;
+  color: #112544;
+}
+
+/* Adicionar a cor no active/current link */
+
+nav a.active {
+  color: black;
+  border-bottom: 0.125em solid black;
+}
+
+#rodape {
+	  width: 100%;        
+    margin: 0 auto;
+    position: relative; 
+    display: inline-block;
+    bottom: 0;
+    background-color: #241a7c;
+    margin-top: 10%;
+    height: 5.625em;
+  
+     
+}
+
+#conteudo {
+  width: 80%;
+  background-color: white;
+  border-radius: 0.625em;
+  top: 15%;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  margin: 5.000em 0 1.250em 0;
+  padding: 1.875em;
+  display: inline-block;
+ 
+}
+#conteudoformulario {
+  width: 60%;
+  background-color: white;
+  border-radius: 0.625em;
+  top: 15%;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  margin: 5.000em 0 1.250em 0;
+  padding: 1.875em;
+  display: inline-block;
+}
+#conteudoformulario > div {
+  width: 97%;
+}
+
+#conteudo-principal {
+  float: left;
+  width: 95%;
+  padding: 1.250em;
+}
+#conteudo-principal h1 {
+  text-align: center;
+  font-family: Calibri;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    font-weight: bold;
+}
+
+
+#conteudo h1, h3 {
+  text-align: center;
+  font-family: Calibri;
+}
+#conteudo h1 {
+  
+  font-weight: bold;
+}
+
+#conteudoformulario h1 {
+text-align: center;
+font-family: Calibri;
+}
+
+#conteudo  p {
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 1.125em;
+}
+
+.recuo {
+  text-indent: 2em;
+}
+
+.figure, .figure2, .figure3, .figure4, .figure5 {
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  height: 80%;
+  
+}
+
+.figure {
+  float: right;
+  width: 37%;
+}
+
+.figure2 {
+  float: left;
+  width: 30%; 
+  min-width: 16em;
+}
+
+.figure3 {
+  float: right;
+  width: 20%;
+  min-width: 7.5em;
+  
+}
+
+.figure4 {
+  float: right;
+  width: 20%;
+  min-width: 7.5em;
+}
+
+.figure5 {
+  float: left;
+  width: 19%;
+  min-width:7.5em;
+}
+
+.figure p, .figure2 p, .figure3 p, .figure4 p, .figure5 p, .figurematerial p {
+  text-align: center !important;
+
+}
+
+img.scaled {
+  width: 100%;
+}
+
+ul.a {
+  font-family: Calibri;
+  font-size: 1.125em;
+  text-align: justify;
+}
+
+ol.a {
+  list-style-type: decimal;
+  font-family: Calibri;
+  font-size: 1.125em;
+  text-align: justify;
+}
+
+
+#conteudo-secundario {
+  float: right;
+  max-width: 44.375em;
+  margin-right: 0.313em;
+}
+
+.fig  {  
+  border: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+.scaled.correntinha {
+  width: 35%;
+  min-width: 17.313em;
+}
+
+.scaled.baixissimo {
+  width: 25%;
+  min-width: 11.125em;
+}
+
+.scaled.baixo {
+  width: 60%;
+  min-width: 24.125em;
+}
+
+.scaled.baixo.duplo {
+  width: 30%;
+  min-width: 22.125em;
+}
+
+.scaled.alto {
+  width: 50%;
+  min-width: 25.125em;
+}
+
+.scaled.alto.duplo {
+  width: 60%;
+  min-width: 26.125em;
+}
+
+.scaled.triplo {
+  width: 60%;
+  min-width: 26.125em;
+}
+
+
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 0.063em;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.figurematerial {
+  float: right;
+  width: 25%;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  min-width: 12.313em;
+}
+
+.scaled.material {
+  width: 100%;
+}
+
+
+
+
+.listatriplo {
+  text-align: justify;
+  font-family: Verdana, sans-serif;
+  text-align: left;
+}
+
+table, th, td {
+  text-align: center;
+  border: 0.063em solid black;
+  font-family: Calibri;
+  font-size: 1.125em;
+  background-color: none;
+}
+thead{
+  font-style: italic;
+  text-decoration: underline;
+}
+th {
+  background-color: #CCC;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+tr:nth-child(even) {
+  background: #CCC;
+}
+
+tr:nth-child(odd) {
+  background: #FFF;
+}
+
+td {
+  width: 33%;
+  padding: 1.250em;
+}
+
+.justifytable {
+  text-align: justify;
+}
+
+#tablestyling {
+  text-decoration: underline;
+  text-align: justify;
+  font-style: italic;
+}
+
+
+iframe {
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+
+.figureagulha, .figureagulha1 {
+
+  width: 100%;
+  border: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+.scaled.agulha {
+  width: 40%;
+  min-width: 27.313em;
+}
+
+.scaled.agulha1 {
+  width: 60%;
+  min-width: 27.313em;
+}
+
+.figureamigurumi1, .figureamigurumi2, .figureamigurumi3, .figureamigurumi3, .figureamigurumi4, .figureamigurumi5, .figureamigurumi6 {
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+.figureamigurumi1 { 
+float: left;
+width: 30%;
+min-width: 13.313em;
+}
+
+.figureamigurumi2 {
+  float: right;
+  width: 32%;
+  min-width: 13.313em;
+}
+.figureamigurumi3 {
+  float: right;
+  width: 30%;
+  min-width: 11.313em;
+}
+
+.figureamigurumi4 {
+  float: right;
+  width: 30%;
+  min-width: 13.313em;
+}
+
+.figureamigurumi5 {
+  float: left;
+  width: 25%;
+  min-width: 13.313em;
+}
+
+
+.scaled.amigurumi1 {
+  width: 85%;
+  min-width: 13.313em;
+}
+
+.scaled.amigurumi3 {
+  width: 67%;
+  min-width: 11.313em;
+}
+
+.scaled.amigurumi2, .scaled.amigurumi4, .scaled.amigurumi5 {
+  width: 100%;
+  min-width: 13.313em;
+}
+
+
+.figureamigurumi1 p, .figureamigurumi2 p,.figureamigurumi3 p, .figureamigurumi4 p,.figureamigurumi5 p, .figureamigurumi6 p {
+  text-align: center !important;
+}
+
+.lista2, .lista3, .lista4 {
+  float: left;
+  max-width: auto;
+  margin-right: 0.313em;
+}
+
+#checkboxtext {
+  font-family: Calibri;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 0.750em 1.250em;
+  margin: 0.500em 0em;
+  display: inline-block;
+  border: 0.063em solid #ccc;
+  border-radius: 0.250em;
+  box-sizing: border-box;
+  font-family: Calibri;
+  font-size: 1.125em;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.875em 1.250em;
+  margin: 0.500em 0em;
+  border: none;
+  border-radius: 0.250em;
+  cursor: pointer;
+  font-family: Calibri;
+  font-size: 1.125em;
+  text-align: center;
+}
+input[type=submit]:hover, input[type=reset], input[type=reset]:hover { 
+  background-color: #4CAF50;
+  font-family: Calibri;
+  font-size: 1.125em;
+}
+
+input[type=reset] {
+  width: 20%;
+  color: white;
+  padding: 0.875em 1.250em;
+  margin: 0.500em 0em;
+  border: none;
+  border-radius: 0.250em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.textareac, textarea, .textareac p {
+  text-align: left;
+}
+
+textarea {
+  border: thin silver solid;
+}
+fieldset {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+textarea {
+  width: 97%;
+}
+
+@media (max-width: 680px) {
+  fieldset {
+    padding: 0;
+  }
+
+  input[type=submit], input[type=reset] { 
+    width: 45%;
+  }
+}
+
+legend {
+  font-family: Calibri;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+fieldset p {
+  font-family: Calibri;
+  display: inline;
+  font-size: 1.125em;
+}
+label {
+  font-family: calibri;
+  font-size: 1.125em;
+}
+
+.radiochecked {
+  font-family: Calibri;
+  font-size: 1.125em;
+  position: relative;
+}
+/*12 - Estilizando rodapé */
+
+
+#contato {
+  float: left;
+  font-size: 1em;
+  color: #FFF;
+  margin: 0.750em 0 0.750em 1.875em;
+  font-family: calibri;
+}
+
+#endereco {
+  float: right;
+  text-align: right;
+  color: #FFF;
+  font-size: 0.875em;
+  margin: 0.750em 1.875em 0.750em 0;
+  font-family: Calibri;
+
+}
+#contato.span.ddd {
+  font-size: 0.8em;
+}
+
+
+#copyright {
+  font-size: 0.687em;
+  color: #d9d9d9;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+@media (max-width: 680px) {
+  #copyright {
+    display: none;
+  }
+}
+
+#copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+
